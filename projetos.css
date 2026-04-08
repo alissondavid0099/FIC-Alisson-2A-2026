@@ -1,0 +1,87 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #290e8b;
+    color: aliceblue;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    background: rgba(15 , 23, 42, 0.8);
+    width: 100%;
+    z-index: 100;
+    padding: 1.5rem;
+
+}
+
+.navegação {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-weight: 500;
+    padding: 0.5rem 0;
+}
+
+.menu-link:hover {
+    color: rgb(255, 255, 255);
+
+}
+
+.projetos {
+    padding: 6rem 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projetos-caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projetos-cartas {
+    background:rgb(255,255,255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border: 3px solid #0398a8;
+     box-shadow: -2px 0px 41px 15px #0398a8;
+    overflow: hidden;
+}
+
+.github-image {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-projetos{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+}
+
+a:hover {
+    color: #0398a8;
+}
+
